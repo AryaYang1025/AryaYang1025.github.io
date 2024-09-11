@@ -3,7 +3,8 @@
 <body>
 
 <h1>Dream World</h1>
-<p>Entry 1</p>
+<strong>Entry 1</strong>
+<p>1. Standard Dream</p>
 
 </body>
 </html>
