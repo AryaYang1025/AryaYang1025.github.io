@@ -2,8 +2,8 @@
 <html>
 <body>
 
-<h1>王乙然</h1>
-<p>My first paragraph.</p>
+<h1>Dream World</h1>
+<p>Entry 1.</p>
 
 </body>
 </html>
