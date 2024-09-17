@@ -8,7 +8,7 @@
     body{
       background: linear-gradient(to right, purple, Blue);
     }
-  </style>
+</style>
 
 </body>
 </html>
