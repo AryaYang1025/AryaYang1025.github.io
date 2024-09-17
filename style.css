@@ -5,3 +5,10 @@ body{
           rgba(44, 114, 251, 1)
       );
     }
+
+header {
+  text-align: center;
+  color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  font-size: 100%;
+}
