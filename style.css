@@ -1,10 +1,5 @@
 body{
-  background-color: linear-gradient
-    (
-          to right, 
-          rgb(113, 65, 168), 
-          rgba(44, 114, 251, 1)
-      );
+  background-image: linear-gradient(to top,#fbc2eb 0%,#a6c1ee 100%);
     }
 
 header {
