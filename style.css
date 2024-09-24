@@ -1,5 +1,6 @@
-
-background-image: linear-gradient(to top,#fbc2eb 0%,#a6c1ee 100%);
+html {
+  background-image: linear-gradient(to top,#fbc2eb 0%,#a6c1ee 100%);
+}
 
 header {
   text-align: center;
