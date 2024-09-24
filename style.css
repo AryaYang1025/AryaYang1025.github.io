@@ -1,11 +1,11 @@
-body {
+head {
   background-image: linear-gradient(to top,#fbc2eb 0%,#a6c1ee 100%);
 }
 
 header {
   text-align: center;
   color: #f9f9f9;
-  font-family: Arial, sans-serif;
+  font-family: Lucida Calligraphy;
   font-size: 200%;
 }
 
