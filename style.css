@@ -9,4 +9,13 @@ header {
   font-size: 200%;
 }
 
+strong {
+  text-align: center;
+  color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
   
+main {
+  color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
