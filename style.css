@@ -30,6 +30,52 @@ section {
   text-align: center;
 }
 
+.menu a {
+  text-decoration: none;
+  color: #dbdbdb;
+}
+
+.menu h3 {
+  color: #fff;
+  margin: 0.4em 0 0 0;
+}
+
+.menu > div {
+  margin: 0.2em;
+}
+
+.menu > div a {
+  width: 100%;
+  height: 100%;
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.2s;
+}
+
+.menu > div:hover a {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
+  box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
+  color: #fff;
+}
+
+@media screen and
+(max-width: 900px) {
+  .menu {
+     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and
+(max-width: 550px) {
+  .menu {
+     grid-template-columns: 1fr;
+  }
+}
 
 
 header {
