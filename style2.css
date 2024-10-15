@@ -1,11 +1,13 @@
 strong {
     color: #f9f9f9;
-    font-family: Arial, sans-serif;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 200%;
   }
     
   p {
     color: #f9f9f9;
     font-family: Arial, sans-serif;
+    font-size: 100%;
   }
 
   body {
