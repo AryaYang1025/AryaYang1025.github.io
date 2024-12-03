@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;  
+    background-position: center; 
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.header {
+    position: absolute;
+    top: 20px; 
+    width: 100%; 
+    text-align: center; 
+}
+
+strong {
+    color: #ffffff;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 300%;
+}
+
+.content {
+    text-align: center;
+    position: relative; 
+    top: 80px; 
+}
+
+p {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 150%; 
+    line-height: 1.5; 
+}
+
+.movies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.movie {
+    margin: 15px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.poster {
+    width: 100%;
+    max-width: 300px;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.movie p {
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+a.button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: white; 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
