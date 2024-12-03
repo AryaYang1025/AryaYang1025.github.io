@@ -2,25 +2,33 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="style2.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="entry2.css">
+  <script src="entry2.js" defer></script>
 </head>
 
 <body>
-  <center>
+  <div class="header">
     <strong>Daydreams</strong>
-  </center>
-
-  <center>
-    <img src="daydreams.jpeg" height="200" width="200" alt="daydreams">
-  </center>
-
-  <center>
+  </div>
+  <div class="content">
     <p>Daydreaming is a kind of fantasy in which people's wishes or other desired things are realized.</p>
-  </center>
-</body>
+  </div>
+  
+  <a href="aryayang1025.github.io" class="button">Main page</a>
 
-<center>
-  <a href="aryayang1025.github.io"class="button">Main page</a >
-</center>
+  <div class="cd-container">
+    <div class="cd" onclick="toggleMusic(this, 'daydream1.mp3')">
+        <img src="daydreamcd.png" alt="CD1">
+    </div>
+    <div class="cd" onclick="toggleMusic(this, 'daydream2.mp3')">
+        <img src="daydreamcd.png" alt="CD2">
+    </div>
+    <div class="cd" onclick="toggleMusic(this, 'daydream3.mp3')">
+        <img src="daydreamcd.png" alt="CD3">
+    </div>
+  </div>
+<audio id="audio-player"></audio>
+</body>
 
 </html>
