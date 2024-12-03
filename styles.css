@@ -12,7 +12,7 @@ body {
     flex-direction: column; 
   }
 
-  .title {
+.title {
     text-align: center;
     color: #f9f9f9; 
     font-family: 'Brush Script MT', cursive; 
@@ -21,15 +21,18 @@ body {
     position: absolute;
     top: 5%; 
     width: 100%; 
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+    animation-delay: 1s;
   }
   
-  .cloud-container {
+.cloud-container {
     position: relative;
     width: 100%;
     height: 100%;
   }
   
-  .cloud {
+.cloud {
     position: absolute;
     width: 200px;
     height: 133px;
@@ -39,11 +42,13 @@ body {
     transition: transform 0.3s ease, filter 0.3s ease;
     filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8));
     opacity: 0.7;
+    animation: scatterFromCenter 1.5s ease-out forwards;
+    animation-delay: calc(0.2s * var(--index));
     text-decoration: none;
   }
   
   
-  .cloud-text {
+.cloud-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -56,19 +61,41 @@ body {
     opacity: 0.9;
   }
   
-  .cloud:nth-child(1) { top: 15%; left: 10%; }
-  .cloud:nth-child(2) { top: 20%; left: 55%; }
-  .cloud:nth-child(3) { top: 30%; left: 30%; }
-  .cloud:nth-child(4) { top: 50%; left: 15%; }
-  .cloud:nth-child(5) { top: 45%; left: 65%; }
-  .cloud:nth-child(6) { top: 65%; left: 30%; }
-  .cloud:nth-child(7) { top: 70%; left: 50%; }
-  .cloud:nth-child(8) { top: 25%; left: 75%; }
-  .cloud:nth-child(9) { top: 80%; left: 10%; }
-  .cloud:nth-child(10) { top: 75%; left: 75%; }
+.cloud:nth-child(1) { top: 15%; left: 10%; --index: 1;}
+.cloud:nth-child(2) { top: 20%; left: 55%; --index: 2;}
+.cloud:nth-child(3) { top: 30%; left: 30%; --index: 3;}
+.cloud:nth-child(4) { top: 50%; left: 15%; --index: 4;}
+.cloud:nth-child(5) { top: 45%; left: 65%; --index: 5;}
+.cloud:nth-child(6) { top: 65%; left: 30%; --index: 6;}
+.cloud:nth-child(7) { top: 70%; left: 50%; --index: 7;}
+.cloud:nth-child(8) { top: 25%; left: 75%; --index: 8;}
+.cloud:nth-child(9) { top: 80%; left: 10%; --index: 9;}
+.cloud:nth-child(10) { top: 75%; left: 75%; --index: 10;}
   
-  .cloud:hover {
+.cloud:hover {
     transform: scale(1.2);
     filter: drop-shadow(0 0 30px rgba(255, 255, 255, 1));
     opacity: 1;
+  }
+
+@keyframes scatterFromCenter {
+    0% {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0.5); /* 从中心缩小开始 */
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0, 0) scale(1); /* 移动到目标位置，恢复大小 */
+      opacity: 1;
+    }
+  }
+  
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
