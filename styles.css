@@ -56,16 +56,16 @@ body {
     opacity: 0.9;
   }
   
-  .cloud:nth-child(1) { top: 10%; left: 20%; }
-  .cloud:nth-child(2) { top: 15%; left: 60%; }
-  .cloud:nth-child(3) { top: 30%; left: 40%; }
+  .cloud:nth-child(1) { top: 15%; left: 10%; }
+  .cloud:nth-child(2) { top: 20%; left: 55%; }
+  .cloud:nth-child(3) { top: 30%; left: 30%; }
   .cloud:nth-child(4) { top: 50%; left: 15%; }
-  .cloud:nth-child(5) { top: 45%; left: 75%; }
-  .cloud:nth-child(6) { top: 70%; left: 25%; }
-  .cloud:nth-child(7) { top: 65%; left: 50%; }
-  .cloud:nth-child(8) { top: 20%; left: 80%; }
-  .cloud:nth-child(9) { top: 85%; left: 10%; }
-  .cloud:nth-child(10) { top: 75%; left: 65%; }
+  .cloud:nth-child(5) { top: 45%; left: 65%; }
+  .cloud:nth-child(6) { top: 65%; left: 30%; }
+  .cloud:nth-child(7) { top: 70%; left: 50%; }
+  .cloud:nth-child(8) { top: 25%; left: 75%; }
+  .cloud:nth-child(9) { top: 80%; left: 10%; }
+  .cloud:nth-child(10) { top: 75%; left: 75%; }
   
   .cloud:hover {
     transform: scale(1.2);
