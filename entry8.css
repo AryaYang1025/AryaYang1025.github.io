@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('recurring.gif');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.header {
+    position: absolute;
+    top: 20px; 
+    width: 100%; 
+    text-align: center; 
+}
+
+strong {
+    color: #ffffff;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 300%;
+}
+
+.content {
+    text-align: center;
+    position: relative; 
+    top: 80px; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 20px; 
+    padding: 15px 25px; 
+    width: auto; 
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+p {
+    color: #9cc8fa;
+    font-family: Arial, sans-serif;
+    font-size: 150%; 
+    line-height: 1.5; 
+}
+
+
+a.button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    color: white; 
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.special-text {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 200%;
+    color: #9cc8fa;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.3s, text-shadow 0.3s;
+}
+
+.special-text:hover {
+    transform: scale(1.2);
+    text-shadow: 0 0 20px #ffffff;
+}
+
+.scattered-text {
+    position: absolute;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 200%;
+    color: white;
+    opacity: 0;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+@keyframes scatter-animation {
+    from {
+        transform: scale(0) translate(0, 0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1) translate(0, 0);
+        opacity: 1;
+    }
+}
