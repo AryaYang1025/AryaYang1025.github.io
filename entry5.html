@@ -2,19 +2,32 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="entry5.css">
+  <script src="entry5.js" defer></script>
 </head>
 
 <body>
-  <center>
+  <div class="header">
     <strong>Nightmares</strong>
-  </center>
-  <center>
+  </div>
+  <div class="content">
     <p>A nightmare is a dream that causes fear or discomfort. The emotions in the dream include fear, sadness, disgust, despair, etc. Nightmares cause people to wake up suddenly from their dreams.</p>
-  </center>
+  </div>
+  
+  <a href="aryayang1025.github.io" class="button">Main page</a>
+
+  <div class="cd-container">
+    <div class="cd" onclick="toggleMusic(this, 'nightmare1.mp3')">
+        <img src="nightmarecd.png" alt="CD1">
+    </div>
+    <div class="cd" onclick="toggleMusic(this, 'nightmare2.mp3')">
+        <img src="nightmarecd.png" alt="CD2">
+    </div>
+    <div class="cd" onclick="toggleMusic(this, 'nightmare3.mp3.mp3')">
+        <img src="nightmarecd.png" alt="CD3">
+    </div>
+  </div>
+<audio id="audio-player"></audio>
 </body>
 
-<center>
-  <a href="aryayang1025.github.io"class="button">Main page</a >
-</center>
 </html>
