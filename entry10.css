@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('entryback.png'); 
+    background-image: url('healing.png'); 
     background-size: cover;  
     background-position: center; 
     overflow: hidden;
@@ -20,7 +20,7 @@ body {
 }
 
 strong {
-    color: #f9f9f9;
+    color: #ffffff;
     font-family: 'Brush Script MT', cursive;
     font-size: 300%;
 }
