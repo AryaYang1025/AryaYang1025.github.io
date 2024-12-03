@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('standard.gif'); 
+    background-image: url('standard.png'); 
     background-size: cover;  
     background-position: center; 
     overflow: hidden;
@@ -20,7 +20,7 @@ body {
 }
 
 strong {
-    color: #d8a7f7;
+    color: #ffffff;
     font-family: 'Brush Script MT', cursive;
     font-size: 300%;
 }
